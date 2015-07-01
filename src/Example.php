@@ -6,13 +6,13 @@ class Example
 {
 
     /**
-     * Returns an example text.
+     * Returns an example message.
      *
      * @return string
      */
-    public function get()
+    public function getMessage()
     {
-        return "This is an example.";
+        return 'This is an example message.';
     }
 
 }
